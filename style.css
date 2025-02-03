@@ -1,0 +1,102 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-style: oblique;
+    text-shadow: 3px 6px 10px rgba(183, 31, 31, 0.7);
+    font-size: 3rem;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+
+}   
+
+
+.mainimg img {
+    padding: 10px;
+    margin: auto;
+}
+.vid{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+  
+}
+
+body {
+    background-color: rgb(17, 14, 14);
+}
+
+.cards {
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+}
+.card:hover {
+   
+    width: 102%;
+    margin: auto;
+    background-color: rgb(216, 219, 236);
+    box-shadow: 0px 0px 15px rgb(91, 157, 109);
+}
+
+footer {
+background-color: #1e1e1e;
+color: white;
+padding: 20px 0;
+}
+
+.cadz {
+padding: 40px 20px;
+text-align: center;
+background-color: #0d0d0d;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.cadz .form-control {
+max-width: 400px;
+margin: 0 auto;
+}
+
+.social-links a {
+color: white;
+border: 1px solid white;
+padding: 10px;
+border-radius: 50px;
+transition: 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+background-color: white;
+color: black;
+}
+
+#k{
+background-color: #f1e8e8;
+
+padding: 15px 0;
+}
+.text-muted{
+color: rgb(243, 236, 236);
+
+}
+.bottomimg img{
+width: 60%;
+margin: 30px 280px;
+border-radius: 15px;
+
+}
+.bottomimg img:hover{
+width: 62%;
+border-radius: 25px;
+box-shadow: 0px 0px 25px rgb(170, 186, 174);
+transition: 0.5s;
+}
